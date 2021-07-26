@@ -72,13 +72,7 @@
   
   .link:hover,
   .link:focus {
-    /* font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em; */
-  
+    
     color: var(--accent-color);
   }
   
@@ -95,22 +89,19 @@
     letter-spacing: 0.02em;
   
     color: #757575;
-  }
-  .contacts-top .link:hover,
-  .contacts-top .link:focus {
-    /* font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em; */
-  
+
+  &:hover,
+  &:focus {
     color: var(--accent-color);
   }
+
+  }
+  
   
   .header-contacts:not(:last-child) {
     margin-right: 50px;
   }
+  
   .tel-icon,
   .mail-icon {
     margin-right: 10px;

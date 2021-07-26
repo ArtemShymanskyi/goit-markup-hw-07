@@ -15,7 +15,7 @@
   margin-bottom: 50px;
 }
 
-.name {
+.team-container__name{
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
@@ -28,7 +28,7 @@
   text-align: center;
   margin-bottom: 10px;
 }
-.team-job {
+.team-container__job {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: normal;
@@ -42,7 +42,7 @@
   margin-bottom: 30px;
 }
 
-.team-div {
+.team-container__div {
   padding-top: 30px;
   padding-bottom: 30px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -53,7 +53,7 @@
   padding-right: 44px;
 }
 
-.team-card {
+.team-container__card {
   margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
